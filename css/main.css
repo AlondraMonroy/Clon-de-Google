@@ -1,0 +1,124 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("https://th.bing.com/th/id/R.4536229c90e31d08f8b90bff77300e97?rik=1E5QdAbER2RKlg&riu=http%3a%2f%2f4.bp.blogspot.com%2f-3VpQDHYDjsA%2fUFSlZPuhZMI%2fAAAAAAAABVw%2fNRQw8demY_M%2fs1600%2fcamino-entre-los-arboles.jpg&ehk=dRq5tN%2b5WOTOSri4t92%2fVlO4SNSzQBFh9a67YStnQYI%3d&risl=&pid=ImgRaw&r=0") no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: rgba(255, 255, 255, 0.274);
+    padding: 5px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav li {
+    margin: 5px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Imagen de perfil */
+.nav li a img {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+}
+
+/* Sección principal */
+.main-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.main-logo img {
+    width: 272px;
+    height: 92px;
+}
+
+.main-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.main-input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    padding: 5px 10px;
+    background: white;
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px 10px;
+}
+
+/* Botón de búsqueda */
+.search-button {
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Botones principales */
+.main-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Pie de página */
+footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 15px;
+}
+
+
